@@ -12,9 +12,9 @@ The app supplies the current track title, artwork and playback state to iOS for 
 
 ## Hosted audio and connection information
 
-Audio is delivered through Supabase Storage and its content-delivery infrastructure. To deliver a stream or download, these services receive connection and request information, such as your IP address, the requested audio URL, request time, platform or browser headers, byte-range requests and response information. Request paths can identify which session was requested. Infrastructure may also derive approximate location from an IP address.
+Audio is delivered through Supabase Storage and its content-delivery infrastructure. To deliver a stream or download, these services receive connection and request information, such as your IP address, the requested audio URL, request time, platform or browser headers, byte-range requests, response status and response timing. Request paths can identify which session was requested. The hosting infrastructure also records approximate city and country information derived from an IP address.
 
-Hosting providers can retain operational and security logs beyond the immediate request. These records support delivery, troubleshooting and protecting the service; streaming is not an anonymous or entirely on-device operation. Our local favorites and completion records are separate from these service logs. Retention depends on the hosting configuration and the providers' applicable policies; this policy does not promise immediate deletion or a fixed retention period. See [Supabase's privacy policy](https://supabase.com/privacy).
+Hosting providers retain operational and security logs beyond the immediate request. These records support delivery, troubleshooting and protecting the service; streaming is not an anonymous or entirely on-device operation. Our local favorites and completion records are separate from these service logs. Retention depends on the hosting configuration and the providers' applicable policies; this policy does not promise immediate deletion or a fixed retention period. See [Supabase's privacy policy](https://supabase.com/privacy).
 
 ## Your controls
 
